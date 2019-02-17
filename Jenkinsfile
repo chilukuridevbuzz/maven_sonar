@@ -61,7 +61,7 @@ node{
         
       mail bcc: 'rajeshchilukuri.tech@gmail.com', body: '''Build Done.
 Regards,
-Jenkins Build System.
+Jenkins Build System Vagrant.
 ''', cc: 'rajeshchilukuri.tech@gmail.com', from: '', replyTo: '', subject: 'Build Done', to: 'rajeshchilukuri.tech@gmail.com'
   
     }
