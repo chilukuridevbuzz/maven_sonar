@@ -38,6 +38,7 @@ node{
            bat  'mvn sonar:sonart' 
         }
     }
+   /* 
     stage('Upload artifact into Nexus')
     {
       if(isUnix()){
@@ -47,7 +48,6 @@ node{
            bat  'mvn deploy' 
         }
     }
-   /* 
     stage('Deploy app into Tomcat Server')
     {
       sh 'echo "App Deploymemt started"'  
