@@ -5,7 +5,8 @@ node{
     
   stage('Checkout the code') 
     {
-     git branch: 'master', credentialsId: '05b3cf19-8d8a-4ad0-ab66-0ac06671d09e', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'   
+     //git branch: 'master', credentialsId: '05b3cf19-8d8a-4ad0-ab66-0ac06671d09e', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'   
+     checkout scm
     }
     
    
