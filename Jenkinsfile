@@ -19,7 +19,6 @@ node{
         }
     }
     
-     /*
     stage('Create Package')
     {
       if(isUnix()){
@@ -48,7 +47,7 @@ node{
            bat  'mvn deploy' 
         }
     }
-    
+   /* 
     stage('Deploy app into Tomcat Server')
     {
       sh 'echo "App Deploymemt started"'  
@@ -60,10 +59,10 @@ node{
     stage('Send Notifications')
     {
         
-      mail bcc: 'devopstrainingblr@gmail.com', body: '''Build Done.
+      mail bcc: 'rajeshchilukuri.tech@gmail.com', body: '''Build Done.
 Regards,
-Mithun Technologies.
-''', cc: 'devopstrainingblr@gmail.com', from: '', replyTo: '', subject: 'Build Done', to: 'devopstrainingblr@gmail.com'
+Jenkins Build System.
+''', cc: 'rajeshchilukuri.tech@gmail.com', from: '', replyTo: '', subject: 'Build Done', to: 'rajeshchilukuri.tech@gmail.com'
   
     }
     
